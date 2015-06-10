@@ -1,0 +1,807 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"cacharacters2",
+		"utes",
+		"CA_Modules_Alice",
+		"ca_modules_animals",
+		"BI_SRRS",
+		"CAWheeled2_V3S",
+		"ca_modules_functions"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters2",
+		"CA_Modules_Alice",
+		"ca_modules_functions",
+		"ca_modules_animals",
+		"BI_SRRS",
+		"CAWheeled2_V3S",
+		"utes"
+	};
+	randomSeed=4001805;
+	class Intel
+	{
+		briefingName="PMC MP5 Ninja";
+		briefingDescription="Your US Marine Force Recon squad will take on the village SCUM in this airstrip. Kill them all!";
+		resistanceWest=0;
+		startWeather=0.39999998;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=0;
+		minute=0;
+	};
+	class Groups
+	{
+		items=8;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=12;
+				class Item0
+				{
+					position[]={3667.418,47.024136,3738.3323};
+					id=0;
+					side="WEST";
+					vehicle="FR_TL";
+					player="PLAYER COMMANDER";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+					init="removeAllWeapons this; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addweapon ""MP5SD"";";
+				};
+				class Item1
+				{
+					position[]={3664.9263,45.379848,3733.9783};
+					id=36;
+					side="WEST";
+					vehicle="FR_TL";
+					player="PLAY CDG";
+					rank="LIEUTENANT";
+					skill=0.59999996;
+					init="removeAllWeapons this; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addweapon ""MP5SD"";";
+				};
+				class Item2
+				{
+					position[]={3667.2563,45.739262,3733.5208};
+					id=37;
+					side="WEST";
+					vehicle="FR_AR";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="removeAllWeapons this; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addweapon ""MP5SD"";";
+				};
+				class Item3
+				{
+					position[]={3669.2563,46.159225,3733.5208};
+					id=38;
+					side="WEST";
+					vehicle="FR_GL";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="removeAllWeapons this; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addweapon ""MP5SD"";";
+				};
+				class Item4
+				{
+					position[]={3671.2563,46.491306,3733.5208};
+					id=39;
+					side="WEST";
+					vehicle="FR_Marksman";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="removeAllWeapons this; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addweapon ""MP5SD"";";
+				};
+				class Item5
+				{
+					position[]={3673.2563,46.771324,3733.5208};
+					id=40;
+					side="WEST";
+					vehicle="FR_R";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="removeAllWeapons this; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addweapon ""MP5SD"";";
+				};
+				class Item6
+				{
+					position[]={3675.2563,47.0513,3733.5208};
+					id=41;
+					side="WEST";
+					vehicle="FR_Corpsman";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="removeAllWeapons this; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addweapon ""MP5SD"";";
+				};
+				class Item7
+				{
+					position[]={3674.9587,45.823753,3729.1274};
+					id=46;
+					side="WEST";
+					vehicle="FR_Corpsman";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="removeAllWeapons this; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addweapon ""MP5SD"";";
+				};
+				class Item8
+				{
+					position[]={3672.9587,45.543736,3729.1274};
+					id=45;
+					side="WEST";
+					vehicle="FR_R";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="removeAllWeapons this; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addweapon ""MP5SD"";";
+				};
+				class Item9
+				{
+					position[]={3670.9587,45.26376,3729.1274};
+					id=44;
+					side="WEST";
+					vehicle="FR_Marksman";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="removeAllWeapons this; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addweapon ""MP5SD"";";
+				};
+				class Item10
+				{
+					position[]={3668.9587,44.91254,3729.1274};
+					id=43;
+					side="WEST";
+					vehicle="FR_GL";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="removeAllWeapons this; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addweapon ""MP5SD"";";
+				};
+				class Item11
+				{
+					position[]={3666.9587,44.512577,3729.1274};
+					id=42;
+					side="WEST";
+					vehicle="FR_AR";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="removeAllWeapons this; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addmagazine ""30Rnd_9x19_MP5SD""; this addweapon ""MP5SD"";";
+				};
+			};
+		};
+		class Item1
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=6;
+				class Item0
+				{
+					position[]={3720.5276,19,3541.7266};
+					id=1;
+					side="GUER";
+					vehicle="GUE_Worker2";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.46666664;
+					synchronizations[]={27};
+				};
+				class Item1
+				{
+					position[]={3723.5276,18.967264,3536.7266};
+					id=2;
+					side="GUER";
+					vehicle="GUE_Woodlander3";
+					rank="CORPORAL";
+					skill=0.33333331;
+				};
+				class Item2
+				{
+					position[]={3725.5276,18.967264,3536.7266};
+					id=3;
+					side="GUER";
+					vehicle="GUE_Villager3";
+					rank="CORPORAL";
+					skill=0.33333331;
+				};
+				class Item3
+				{
+					position[]={3727.5276,18.967264,3536.7266};
+					id=4;
+					side="GUER";
+					vehicle="GUE_Woodlander2";
+					skill=0.2;
+				};
+				class Item4
+				{
+					position[]={3729.5276,18.967264,3536.7266};
+					id=5;
+					side="GUER";
+					vehicle="GUE_Woodlander1";
+					skill=0.2;
+				};
+				class Item5
+				{
+					position[]={3731.5276,18.967264,3536.7266};
+					id=6;
+					side="GUER";
+					vehicle="GUE_Villager4";
+					skill=0.2;
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3719.9128,19,3545.719};
+					placement=100;
+					type="GUARD";
+					combatMode="RED";
+					formation="WEDGE";
+					speed="FULL";
+					combat="SAFE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item2
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=6;
+				class Item0
+				{
+					position[]={3587.3125,19,3525.6946};
+					id=7;
+					side="GUER";
+					vehicle="GUE_Worker2";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.46666664;
+					synchronizations[]={27};
+				};
+				class Item1
+				{
+					position[]={3590.3125,19,3520.6946};
+					id=8;
+					side="GUER";
+					vehicle="GUE_Woodlander3";
+					rank="CORPORAL";
+					skill=0.33333331;
+				};
+				class Item2
+				{
+					position[]={3592.3125,19,3520.6946};
+					id=9;
+					side="GUER";
+					vehicle="GUE_Villager3";
+					rank="CORPORAL";
+					skill=0.33333331;
+				};
+				class Item3
+				{
+					position[]={3594.3125,19,3520.6946};
+					id=10;
+					side="GUER";
+					vehicle="GUE_Woodlander2";
+					skill=0.2;
+				};
+				class Item4
+				{
+					position[]={3596.3125,19,3520.6946};
+					id=11;
+					side="GUER";
+					vehicle="GUE_Woodlander1";
+					skill=0.2;
+				};
+				class Item5
+				{
+					position[]={3598.3125,19,3520.6946};
+					id=12;
+					side="GUER";
+					vehicle="GUE_Villager4";
+					skill=0.2;
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3586.6978,19,3529.687};
+					placement=100;
+					type="GUARD";
+					combatMode="RED";
+					formation="WEDGE";
+					speed="FULL";
+					combat="SAFE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item3
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=6;
+				class Item0
+				{
+					position[]={3489.6851,18.835777,3656.4219};
+					id=13;
+					side="GUER";
+					vehicle="GUE_Worker2";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.46666664;
+					synchronizations[]={27};
+				};
+				class Item1
+				{
+					position[]={3492.6851,18.885773,3651.4219};
+					id=14;
+					side="GUER";
+					vehicle="GUE_Woodlander3";
+					rank="CORPORAL";
+					skill=0.33333331;
+				};
+				class Item2
+				{
+					position[]={3494.6851,18.885773,3651.4219};
+					id=15;
+					side="GUER";
+					vehicle="GUE_Villager3";
+					rank="CORPORAL";
+					skill=0.33333331;
+				};
+				class Item3
+				{
+					position[]={3496.6851,18.885773,3651.4219};
+					id=16;
+					side="GUER";
+					vehicle="GUE_Woodlander2";
+					skill=0.2;
+				};
+				class Item4
+				{
+					position[]={3498.6851,18.884705,3651.4219};
+					id=17;
+					side="GUER";
+					vehicle="GUE_Woodlander1";
+					skill=0.2;
+				};
+				class Item5
+				{
+					position[]={3500.6851,18.871555,3651.4219};
+					id=18;
+					side="GUER";
+					vehicle="GUE_Villager4";
+					skill=0.2;
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3489.0703,18.79171,3660.4143};
+					placement=100;
+					type="GUARD";
+					combatMode="RED";
+					formation="WEDGE";
+					speed="FULL";
+					combat="SAFE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item4
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=6;
+				class Item0
+				{
+					position[]={3593.4106,18.251444,3696.865};
+					id=19;
+					side="GUER";
+					vehicle="GUE_Worker2";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.46666664;
+					synchronizations[]={27};
+				};
+				class Item1
+				{
+					position[]={3596.4106,18.200821,3691.865};
+					id=20;
+					side="GUER";
+					vehicle="GUE_Woodlander3";
+					rank="CORPORAL";
+					skill=0.33333331;
+				};
+				class Item2
+				{
+					position[]={3598.4106,18.197599,3691.865};
+					id=21;
+					side="GUER";
+					vehicle="GUE_Villager3";
+					rank="CORPORAL";
+					skill=0.33333331;
+				};
+				class Item3
+				{
+					position[]={3600.4106,18.225071,3691.865};
+					id=22;
+					side="GUER";
+					vehicle="GUE_Woodlander2";
+					skill=0.2;
+				};
+				class Item4
+				{
+					position[]={3602.4106,18.448906,3691.865};
+					id=23;
+					side="GUER";
+					vehicle="GUE_Woodlander1";
+					skill=0.2;
+				};
+				class Item5
+				{
+					position[]={3604.4106,18.672775,3691.865};
+					id=24;
+					side="GUER";
+					vehicle="GUE_Villager4";
+					skill=0.2;
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3592.7959,18.274252,3700.8574};
+					placement=100;
+					type="GUARD";
+					combatMode="RED";
+					formation="WEDGE";
+					speed="FULL";
+					combat="SAFE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item5
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={3756.2505,19,3637.2595};
+					id=25;
+					side="LOGIC";
+					vehicle="AliceManager";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={3769.2263,19.375067,3671.4294};
+					id=47;
+					side="LOGIC";
+					vehicle="FunctionsManager";
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={3812.7405,19,3635.5723};
+					id=26;
+					side="LOGIC";
+					vehicle="BIS_animals_Logic";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={3525.8594,19,3608.4937};
+					id=27;
+					side="LOGIC";
+					vehicle="BIS_SRRS_Logic";
+					skill=0.60000002;
+					synchronizations[]={19,13,7,1};
+				};
+			};
+		};
+		class Item6
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3185.5303,36.379623,4150.3296};
+					azimut=157.63611;
+					id=28;
+					side="GUER";
+					vehicle="V3S_Gue";
+					leader=1;
+					skill=0.60000002;
+					text="trk1";
+				};
+			};
+			class Waypoints
+			{
+				items=3;
+				class Item0
+				{
+					position[]={3187.2668,36.896072,4146.1611};
+					combatMode="BLUE";
+					combat="CARELESS";
+					class Effects
+					{
+					};
+					timeoutMin=60;
+					timeoutMid=120;
+					timeoutMax=240;
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={3592.4197,18.298847,3684.157};
+					type="TR UNLOAD";
+					combatMode="YELLOW";
+					formation="COLUMN";
+					speed="FULL";
+					combat="SAFE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={3592.3228,18.307219,3683.2917};
+					type="GETOUT";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item7
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={3196.6287,36.13253,4162.7251};
+					id=29;
+					side="GUER";
+					vehicle="GUE_Woodlander2";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.46666664;
+					init="{_x moveInCargo trk1} forEach units group this;";
+				};
+				class Item1
+				{
+					position[]={3199.6287,37.003532,4157.7251};
+					id=30;
+					side="GUER";
+					vehicle="GUE_Worker2";
+					rank="CORPORAL";
+					skill=0.33333331;
+				};
+				class Item2
+				{
+					position[]={3201.6287,37.196808,4157.7251};
+					id=31;
+					side="GUER";
+					vehicle="GUE_Woodlander3";
+					rank="CORPORAL";
+					skill=0.33333331;
+				};
+				class Item3
+				{
+					position[]={3203.6287,37.363281,4157.7251};
+					id=32;
+					side="GUER";
+					vehicle="GUE_Villager3";
+					skill=0.2;
+				};
+				class Item4
+				{
+					position[]={3205.6287,37.523262,4157.7251};
+					id=33;
+					side="GUER";
+					vehicle="GUE_Villager4";
+					skill=0.2;
+				};
+				class Item5
+				{
+					position[]={3207.6287,37.683273,4157.7251};
+					id=34;
+					side="GUER";
+					vehicle="GUE_Woodlander1";
+					skill=0.2;
+				};
+				class Item6
+				{
+					position[]={3209.6287,37.843254,4157.7251};
+					id=35;
+					side="GUER";
+					vehicle="GUE_Woodlander1";
+					skill=0.2;
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3589.9529,18.255753,3683.7124};
+					type="GUARD";
+					combatMode="RED";
+					formation="WEDGE";
+					speed="FULL";
+					combat="AWARE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+	};
+	class Markers
+	{
+		items=1;
+		class Item0
+		{
+			position[]={3593.1191,18.889017,3651.0974};
+			name="target1";
+			type="mil_objective";
+			colorName="ColorRed";
+		};
+	};
+	class Sensors
+	{
+		items=2;
+		class Item0
+		{
+			position[]={3593.5247,19,3623.7593};
+			a=300;
+			b=300;
+			activationBy="GUER";
+			activationType="NOT PRESENT";
+			repeating=1;
+			timeoutMin=3;
+			timeoutMid=5;
+			timeoutMax=7;
+			interruptable=1;
+			age="UNKNOWN";
+			text="east dead";
+			expActiv="pmc_opfordead = true;";
+			class Effects
+			{
+				track="Ambient06_Khe_Sanh_Riff";
+				titleType="TEXT";
+				title="Village SCUM has been eliminated, muhahah! victory is sweet!";
+			};
+		};
+		class Item1
+		{
+			position[]={3611.2307,19,3607.7273};
+			a=0;
+			b=0;
+			timeoutMin=25;
+			timeoutMid=35;
+			timeoutMax=60;
+			interruptable=1;
+			type="END1";
+			age="UNKNOWN";
+			text="END";
+			expCond="pmc_opfordead";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=12243370;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=5435595;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=7490902;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};

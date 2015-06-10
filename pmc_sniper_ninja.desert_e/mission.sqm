@@ -1,0 +1,399 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"cacharacters_e",
+		"desert_e",
+		"catracked_e_m113",
+		"CAWheeled_E_BTR60"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters_e",
+		"catracked_e_m113",
+		"CAWheeled_E_BTR60",
+		"desert_e"
+	};
+	randomSeed=6331758;
+	class Intel
+	{
+		briefingName="PMC Sniper Ninja";
+		briefingDescription="Sniper mission to assassinate Colonel Aziz who is visiting his troops.";
+		startWeather=0.30000001;
+		forecastWeather=0.30000001;
+		year=2012;
+		month=6;
+		day=24;
+		hour=0;
+		minute=0;
+	};
+	class Groups
+	{
+		items=3;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={993.54126,77.478172,1077.2911};
+					id=0;
+					side="WEST";
+					vehicle="US_Soldier_Sniper_EP1";
+					player="PLAYER COMMANDER";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+				};
+				class Item1
+				{
+					position[]={996.54126,77.547173,1072.2911};
+					id=1;
+					side="WEST";
+					vehicle="US_Soldier_Sniper_EP1";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=1;
+				};
+				class Item2
+				{
+					position[]={998.54126,77.552177,1072.2911};
+					id=2;
+					side="WEST";
+					vehicle="US_Soldier_Spotter_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+				};
+			};
+		};
+		class Item1
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={1354.8953,40.804371,1442.434};
+					id=3;
+					side="EAST";
+					vehicle="TK_Soldier_SL_EP1";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.59999996;
+				};
+				class Item1
+				{
+					position[]={1357.8953,40.79977,1437.434};
+					id=4;
+					side="EAST";
+					vehicle="TK_Soldier_MG_EP1";
+					rank="SERGEANT";
+					skill=0.46666664;
+				};
+				class Item2
+				{
+					position[]={1359.8953,40.796413,1437.434};
+					id=5;
+					side="EAST";
+					vehicle="TK_Soldier_AT_EP1";
+					rank="CORPORAL";
+					skill=0.33333331;
+				};
+				class Item3
+				{
+					position[]={1361.8953,40.796413,1437.434};
+					id=6;
+					side="EAST";
+					vehicle="TK_Soldier_GL_EP1";
+					rank="CORPORAL";
+					skill=0.33333331;
+				};
+				class Item4
+				{
+					position[]={1363.8953,40.803062,1437.434};
+					id=7;
+					side="EAST";
+					vehicle="TK_Soldier_MG_EP1";
+					rank="CORPORAL";
+					skill=0.33333331;
+				};
+				class Item5
+				{
+					position[]={1365.8953,40.808323,1437.434};
+					id=8;
+					side="EAST";
+					vehicle="TK_Soldier_LAT_EP1";
+					rank="CORPORAL";
+					skill=0.33333331;
+				};
+				class Item6
+				{
+					position[]={1367.8953,40.81665,1437.434};
+					id=9;
+					side="EAST";
+					vehicle="TK_Soldier_GL_EP1";
+					skill=0.2;
+				};
+				class Item7
+				{
+					position[]={1369.8953,40.840862,1437.434};
+					id=10;
+					side="EAST";
+					vehicle="TK_Soldier_AAT_EP1";
+					skill=0.2;
+				};
+				class Item8
+				{
+					position[]={1371.8953,40.865864,1437.434};
+					id=11;
+					side="EAST";
+					vehicle="TK_Soldier_AMG_EP1";
+					skill=0.2;
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1365.397,40.793968,1467.8037};
+					placement=50;
+					type="GUARD";
+					combatMode="RED";
+					formation="STAG COLUMN";
+					speed="FULL";
+					combat="SAFE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item2
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=6;
+				class Item0
+				{
+					position[]={1372.7991,40.853909,1467.7917};
+					id=12;
+					side="EAST";
+					vehicle="TK_Aziz_EP1";
+					leader=1;
+					rank="COLONEL";
+					skill=1;
+					text="aziz";
+				};
+				class Item1
+				{
+					position[]={1370.1002,40.825253,1465.3339};
+					id=13;
+					side="EAST";
+					vehicle="TK_Special_Forces_TL_EP1";
+					rank="CAPTAIN";
+					skill=1;
+				};
+				class Item2
+				{
+					position[]={1372.1725,40.836998,1465.313};
+					id=14;
+					side="EAST";
+					vehicle="TK_Special_Forces_EP1";
+					rank="LIEUTENANT";
+					skill=1;
+				};
+				class Item3
+				{
+					position[]={1373.5145,40.84169,1465.5813};
+					id=15;
+					side="EAST";
+					vehicle="TK_Special_Forces_EP1";
+					rank="LIEUTENANT";
+					skill=1;
+				};
+				class Item4
+				{
+					position[]={1374.7073,40.846714,1465.641};
+					id=16;
+					side="EAST";
+					vehicle="TK_Special_Forces_MG_EP1";
+					rank="SERGEANT";
+					skill=1;
+				};
+				class Item5
+				{
+					position[]={1375.8704,40.857525,1465.8497};
+					id=17;
+					side="EAST";
+					vehicle="TK_Special_Forces_MG_EP1";
+					rank="SERGEANT";
+					skill=1;
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1386.1563,46.424267,1469.5259};
+					placement=25;
+					type="SENTRY";
+					combatMode="YELLOW";
+					formation="DIAMOND";
+					speed="LIMITED";
+					combat="SAFE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=2;
+		class Item0
+		{
+			position[]={1363.9474,40.844006,1443.4663};
+			placement=15;
+			azimut=106.46;
+			id=18;
+			side="EMPTY";
+			vehicle="M113_TK_EP1";
+			leader=1;
+			skill=1;
+		};
+		class Item1
+		{
+			position[]={1334.0461,40.715809,1452.3772};
+			placement=15;
+			azimut=160;
+			id=19;
+			side="EMPTY";
+			vehicle="BTR60_TK_EP1";
+			leader=1;
+			skill=1;
+		};
+	};
+	class Markers
+	{
+		items=1;
+		class Item0
+		{
+			position[]={1374.8386,40.832275,1462.0713};
+			name="target1";
+			type="Faction_TKA_EP1";
+			colorName="ColorRed";
+			a=1.5;
+		};
+	};
+	class Sensors
+	{
+		items=2;
+		class Item0
+		{
+			position[]={1393.4824,42.141964,1343.824};
+			a=0;
+			b=0;
+			timeoutMin=5;
+			timeoutMid=15;
+			timeoutMax=30;
+			interruptable=1;
+			type="END1";
+			age="UNKNOWN";
+			expCond="pmc_mcomplete";
+			class Effects
+			{
+			};
+		};
+		class Item1
+		{
+			position[]={1382.6343,42.08292,1352.6997};
+			a=0;
+			b=0;
+			timeoutMin=3;
+			timeoutMid=5;
+			timeoutMax=7;
+			interruptable=1;
+			age="UNKNOWN";
+			text="aziz dead";
+			expCond="!alive aziz";
+			expActiv="pmc_mcomplete = true;";
+			class Effects
+			{
+				track="EP1_Track01";
+				titleType="TEXT";
+				title="Colonel Aziz is dead!";
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"desert_e"
+	};
+	addOnsAuto[]=
+	{
+		"desert_e"
+	};
+	randomSeed=11602328;
+	class Intel
+	{
+		startWeather=0.30000001;
+		forecastWeather=0.30000001;
+		year=2012;
+		month=6;
+		day=24;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"desert_e"
+	};
+	addOnsAuto[]=
+	{
+		"desert_e"
+	};
+	randomSeed=7432345;
+	class Intel
+	{
+		startWeather=0.30000001;
+		forecastWeather=0.30000001;
+		year=2012;
+		month=6;
+		day=24;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"desert_e"
+	};
+	addOnsAuto[]=
+	{
+		"desert_e"
+	};
+	randomSeed=7020361;
+	class Intel
+	{
+		startWeather=0.30000001;
+		forecastWeather=0.30000001;
+		year=2012;
+		month=6;
+		day=24;
+	};
+};
