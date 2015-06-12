@@ -15,7 +15,7 @@ if (isServer) then
 	"crash_site" setMarkerPos PMC_crash_site_location;
 	
 	// add the searching insurgent party
-	[] execVM "PMC_Create_Searching_Insurgents.sqf";
+	[PMC_crash_site_location] execVM "PMC_Create_Searching_Insurgents.sqf";
 };
 
 // then exit if on server
