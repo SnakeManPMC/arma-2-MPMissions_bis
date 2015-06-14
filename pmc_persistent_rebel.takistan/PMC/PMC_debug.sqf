@@ -65,9 +65,9 @@ while {true} do
 			('tank' countType (list _pmc_b)),
 			('air' countType (list _pmc_b)),
 
-			('car' countType (list _pmc_b)),
-			('tank' countType (list _pmc_b)),
-			('air' countType (list _pmc_b)),
+			('car' countType (list _pmc_o)),
+			('tank' countType (list _pmc_o)),
+			('air' countType (list _pmc_o)),
 
 			PMC_war_blufor,
 			PMC_war_opfor,

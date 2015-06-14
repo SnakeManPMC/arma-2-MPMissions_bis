@@ -28,8 +28,7 @@ class Mission
 		"ca_modules_functions",
 		"camisc3",
 		"ca_modules_clouds",
-		"caweapons_ammoboxes",
-		"corepatch_ccp_67747_fix"
+		"caweapons_ammoboxes"
 	};
 	addOnsAuto[]=
 	{
@@ -51,7 +50,6 @@ class Mission
 		"cawheeled_e_brdm2",
 		"cawheeled_e_btr40",
 		"CAWheeled_E_BTR60",
-		"corepatch_ccp_67747_fix",
 		"catracked_e_t55",
 		"cawheeled_e_hmmwv",
 		"CAWheeled_E_SCUD",
@@ -63,7 +61,7 @@ class Mission
 	randomSeed=7433698;
 	class Intel
 	{
-		briefingName="PMC Persistent Rebel v0.9.8";
+		briefingName="PMC Persistent Rebel v0.9.10";
 		briefingDescription="Guerrilla Insurgent war against US and Takistani forces";
 		resistanceWest=0;
 		year=2010;
