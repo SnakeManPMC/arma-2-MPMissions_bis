@@ -63,7 +63,7 @@ class Mission
 	randomSeed=7433698;
 	class Intel
 	{
-		briefingName="PMC Persistent Rebel v0.9.7";
+		briefingName="PMC Persistent Rebel v0.9.8";
 		briefingDescription="Guerrilla Insurgent war against US and Takistani forces";
 		resistanceWest=0;
 		year=2010;

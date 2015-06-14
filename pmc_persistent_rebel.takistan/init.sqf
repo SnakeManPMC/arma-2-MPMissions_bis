@@ -45,12 +45,12 @@ else
 	[] execVM "PMC\Triggers.sqf";
 
 	// this is gay, its like a debug joke really?
-	//player addAction ["Camera", "camerago.sqf", true];
+	player addAction ["Camera", "camerago.sqf", true];
 	
 	// debug for clients, remember to remove for release version :)
 	// v1.63 gives lots of errors, PMC_corpses undefined etc.
 	// you really need to rework this script.
-	//[] execVM "PMC\PMC_debug.sqf";
+	[] execVM "PMC\PMC_debug.sqf";
 	
 	// create client objectives
 	[] execVM "PMC\PMC_Create_Tasks.sqf";

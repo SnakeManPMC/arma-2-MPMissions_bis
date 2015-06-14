@@ -135,6 +135,11 @@ diag_log format["PMC_HeloBLUFOR: _vcl: %1, PMC_blufor: %2, PMC_grp_blufor: %3", 
 		// he cant fire (but what if he has no weapons like MH6?)
 		(!alive _vcl || !canMove _vcl || !canFire _vcl);
 	};
+
+	// downed aircraft debug
+	[_vcl] execVM "PMC\PMC_Aircraft_debug.sqf";
+	// destroy downed aircraft
+	[_vcl] execVM "PMC\PMC_Aircraft_Down.sqf";
 };
 
 diag_log format["PMC_HeloBLUFOR.sqf EXITED! _vcl: %1, PMC_blufor: %2, PMC_grp_blufor: %3", typeOf _vcl, PMC_blufor, PMC_grp_blufor];
