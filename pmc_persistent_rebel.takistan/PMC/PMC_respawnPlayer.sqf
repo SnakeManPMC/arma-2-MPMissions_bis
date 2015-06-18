@@ -17,8 +17,12 @@ waitUntil
 //player sideChat format["##############################  After waitUntil: %1", player];
 if (PMC_debug) then { diag_log format["PMC_respawnPlayer.sqf ##############################  After waitUntil: %1", player]; };
 
-// human respawn bodies are removed also.
-player addEventHandler ["killed", {handle = _this execVM "PMC\PMC_killed.sqf"}];
+/* human respawn bodies are removed also.
+but this is run locally on client, so it makes PMC_corpses[] for the client which is destroyed
+when player logs off :)
+in other words; this doesnt work :(
+*/
+//player addEventHandler ["killed", {handle = _this execVM "PMC\PMC_killed.sqf"}];
 
 // he has to pickup weapons after respawn. perhaps too much trouble?
 removeAllWeapons player;
